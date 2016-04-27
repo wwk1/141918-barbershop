@@ -1,21 +1,129 @@
-body {
-    font-size: 14px;
-    line-height: 24px;
-    color: #000000;
-    font-weight: normal;
-    font-family: PT Sans Narrow
-}
-h1 {
-    font-size: 30px;
-    line-height: 42px;
-    color: #000000;
-    font-weight: normal;
-    font-family: PT Sans Narrow
-}
-h2 {
-    font-size: 24px;
-    line-height: 30px;
-    color: #000000;
-    font-weight: normal;
-    font-family: PT Sans Narrow
-}
+    body {
+        font-size: 14px;
+        line-height: 24px;
+        color: black;
+        font-weight: normal;
+        font-family: PT Sans Narrow
+    }
+    
+    .clearfix::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    h1 {
+        font-size: 30px;
+        line-height: 42px;
+        color: #000000;
+        font-weight: normal;
+        font-family: PT Sans Narrow;
+        background-color: green;
+        min-height: 25px;
+        width: 255px;
+        margin-bottom: 30px
+    }
+    
+    h2 {
+        font-size: 24px;
+        line-height: 30px;
+        color: #000000;
+        font-weight: normal;
+        font-family: PT Sans Narrow
+    }
+    
+    .page-header {
+        background-color: gray;
+        margin-bottom: 60px;
+    }
+    
+    .container {
+        width: 940px;
+        padding: 0 10px;
+        background-color: yellow;
+        margin: 0 auto;
+    }
+    
+    .page-navigation {
+        background-color: olive;
+        width: 780px;
+        float: left;
+        /* Только для оформления сетки */
+        min-height: 70px;
+    }
+    
+    .user-block {
+        background-color: red;
+        width: 140px;
+        float: right;
+        /* Только для оформления сетки */
+        min-height: 70px;
+    }
+    
+    .breadcrumbs {
+        background-color: orange;
+        width: 300px;
+        min-height: 12px;
+        margin-bottom: 60px
+    }
+    
+    .page-forms {
+        float: left;
+        background-color: lime;
+        width: 166px;
+        min-height: 570px
+    }
+    
+    .catalogue {
+        float: right;
+        background-color: aqua;
+        width: 700px;
+        min-height: 590px;
+        margin-bottom: 44px
+    }
+    
+    .page-choice {
+        width: 193;
+        min-height: 40;
+        background-color: fuchsia;
+        clear: both;
+    }
+    
+    .main-footer {
+        margin-top: 50px;
+        background-color: purple
+    }
+    
+    .footer-contacts {
+        float: left;
+        width: 320px;
+        margin-right: 60px;
+        /* Только для оформления сетки */
+        min-height: 90px;
+        background-color: white
+    }
+    
+    .footer-social {
+        float: left;
+        width: 180px;
+        /* Только для оформления сетки */
+        min-height: 90px;
+        background-color: lime
+    }
+    
+    .footer-copyright {
+        float: right;
+        width: 180px;
+        /* Только для оформления сетки */
+        min-height: 90px;
+        background-color: red
+    }
+    .gallery {float: left; width: 520px; height: 670px}
+    
+    .info {
+        float: right;
+        background-color: lime;
+        width: 420px;
+        min-height: 380px
+    }
+    
